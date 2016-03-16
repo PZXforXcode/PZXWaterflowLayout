@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89E116B91C99501400484655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E116B81C99501400484655 /* main.m */; };
+		89E116BC1C99501400484655 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E116BB1C99501400484655 /* AppDelegate.m */; };
+		89E116BF1C99501400484655 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E116BE1C99501400484655 /* ViewController.m */; };
+		89E116C21C99501400484655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E116C01C99501400484655 /* Main.storyboard */; };
+		89E116C41C99501400484655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89E116C31C99501400484655 /* Assets.xcassets */; };
+		89E116C71C99501400484655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E116C51C99501400484655 /* LaunchScreen.storyboard */; };
+		89E116D21C99501400484655 /* PZXWaterflowLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E116D11C99501400484655 /* PZXWaterflowLayoutTests.m */; };
+		89E116DD1C99501400484655 /* PZXWaterflowLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E116DC1C99501400484655 /* PZXWaterflowLayoutUITests.m */; };
+		89E116ED1C99508B00484655 /* PZXWaterflowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E116EC1C99508B00484655 /* PZXWaterflowLayout.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89E116CE1C99501400484655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89E116AC1C99501400484655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89E116B31C99501400484655;
+			remoteInfo = PZXWaterflowLayout;
+		};
+		89E116D91C99501400484655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89E116AC1C99501400484655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89E116B31C99501400484655;
+			remoteInfo = PZXWaterflowLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89E116B41C99501400484655 /* PZXWaterflowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PZXWaterflowLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E116B81C99501400484655 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89E116BA1C99501400484655 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		89E116BB1C99501400484655 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		89E116BD1C99501400484655 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		89E116BE1C99501400484655 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		89E116C11C99501400484655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89E116C31C99501400484655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89E116C61C99501400484655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89E116C81C99501400484655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89E116CD1C99501400484655 /* PZXWaterflowLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PZXWaterflowLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E116D11C99501400484655 /* PZXWaterflowLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZXWaterflowLayoutTests.m; sourceTree = "<group>"; };
+		89E116D31C99501400484655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89E116D81C99501400484655 /* PZXWaterflowLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PZXWaterflowLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E116DC1C99501400484655 /* PZXWaterflowLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZXWaterflowLayoutUITests.m; sourceTree = "<group>"; };
+		89E116DE1C99501400484655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89E116EB1C99508B00484655 /* PZXWaterflowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZXWaterflowLayout.h; sourceTree = "<group>"; };
+		89E116EC1C99508B00484655 /* PZXWaterflowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PZXWaterflowLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89E116B11C99501400484655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E116CA1C99501400484655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E116D51C99501400484655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89E116AB1C99501400484655 = {
+			isa = PBXGroup;
+			children = (
+				89E116B61C99501400484655 /* PZXWaterflowLayout */,
+				89E116D01C99501400484655 /* PZXWaterflowLayoutTests */,
+				89E116DB1C99501400484655 /* PZXWaterflowLayoutUITests */,
+				89E116B51C99501400484655 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89E116B51C99501400484655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89E116B41C99501400484655 /* PZXWaterflowLayout.app */,
+				89E116CD1C99501400484655 /* PZXWaterflowLayoutTests.xctest */,
+				89E116D81C99501400484655 /* PZXWaterflowLayoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89E116B61C99501400484655 /* PZXWaterflowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				89E116EA1C99507300484655 /* PZXWaterflowLayoutUse */,
+				89E116BA1C99501400484655 /* AppDelegate.h */,
+				89E116BB1C99501400484655 /* AppDelegate.m */,
+				89E116BD1C99501400484655 /* ViewController.h */,
+				89E116BE1C99501400484655 /* ViewController.m */,
+				89E116C01C99501400484655 /* Main.storyboard */,
+				89E116C31C99501400484655 /* Assets.xcassets */,
+				89E116C51C99501400484655 /* LaunchScreen.storyboard */,
+				89E116C81C99501400484655 /* Info.plist */,
+				89E116B71C99501400484655 /* Supporting Files */,
+			);
+			path = PZXWaterflowLayout;
+			sourceTree = "<group>";
+		};
+		89E116B71C99501400484655 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89E116B81C99501400484655 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89E116D01C99501400484655 /* PZXWaterflowLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				89E116D11C99501400484655 /* PZXWaterflowLayoutTests.m */,
+				89E116D31C99501400484655 /* Info.plist */,
+			);
+			path = PZXWaterflowLayoutTests;
+			sourceTree = "<group>";
+		};
+		89E116DB1C99501400484655 /* PZXWaterflowLayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89E116DC1C99501400484655 /* PZXWaterflowLayoutUITests.m */,
+				89E116DE1C99501400484655 /* Info.plist */,
+			);
+			path = PZXWaterflowLayoutUITests;
+			sourceTree = "<group>";
+		};
+		89E116EA1C99507300484655 /* PZXWaterflowLayoutUse */ = {
+			isa = PBXGroup;
+			children = (
+				89E116EB1C99508B00484655 /* PZXWaterflowLayout.h */,
+				89E116EC1C99508B00484655 /* PZXWaterflowLayout.m */,
+			);
+			path = PZXWaterflowLayoutUse;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89E116B31C99501400484655 /* PZXWaterflowLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89E116E11C99501400484655 /* Build configuration list for PBXNativeTarget "PZXWaterflowLayout" */;
+			buildPhases = (
+				89E116B01C99501400484655 /* Sources */,
+				89E116B11C99501400484655 /* Frameworks */,
+				89E116B21C99501400484655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PZXWaterflowLayout;
+			productName = PZXWaterflowLayout;
+			productReference = 89E116B41C99501400484655 /* PZXWaterflowLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89E116CC1C99501400484655 /* PZXWaterflowLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89E116E41C99501400484655 /* Build configuration list for PBXNativeTarget "PZXWaterflowLayoutTests" */;
+			buildPhases = (
+				89E116C91C99501400484655 /* Sources */,
+				89E116CA1C99501400484655 /* Frameworks */,
+				89E116CB1C99501400484655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89E116CF1C99501400484655 /* PBXTargetDependency */,
+			);
+			name = PZXWaterflowLayoutTests;
+			productName = PZXWaterflowLayoutTests;
+			productReference = 89E116CD1C99501400484655 /* PZXWaterflowLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89E116D71C99501400484655 /* PZXWaterflowLayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89E116E71C99501400484655 /* Build configuration list for PBXNativeTarget "PZXWaterflowLayoutUITests" */;
+			buildPhases = (
+				89E116D41C99501400484655 /* Sources */,
+				89E116D51C99501400484655 /* Frameworks */,
+				89E116D61C99501400484655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89E116DA1C99501400484655 /* PBXTargetDependency */,
+			);
+			name = PZXWaterflowLayoutUITests;
+			productName = PZXWaterflowLayoutUITests;
+			productReference = 89E116D81C99501400484655 /* PZXWaterflowLayoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89E116AC1C99501400484655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "彭祖鑫";
+				TargetAttributes = {
+					89E116B31C99501400484655 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					89E116CC1C99501400484655 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 89E116B31C99501400484655;
+					};
+					89E116D71C99501400484655 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 89E116B31C99501400484655;
+					};
+				};
+			};
+			buildConfigurationList = 89E116AF1C99501400484655 /* Build configuration list for PBXProject "PZXWaterflowLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89E116AB1C99501400484655;
+			productRefGroup = 89E116B51C99501400484655 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89E116B31C99501400484655 /* PZXWaterflowLayout */,
+				89E116CC1C99501400484655 /* PZXWaterflowLayoutTests */,
+				89E116D71C99501400484655 /* PZXWaterflowLayoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89E116B21C99501400484655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E116C71C99501400484655 /* LaunchScreen.storyboard in Resources */,
+				89E116C41C99501400484655 /* Assets.xcassets in Resources */,
+				89E116C21C99501400484655 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E116CB1C99501400484655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E116D61C99501400484655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89E116B01C99501400484655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E116BF1C99501400484655 /* ViewController.m in Sources */,
+				89E116BC1C99501400484655 /* AppDelegate.m in Sources */,
+				89E116ED1C99508B00484655 /* PZXWaterflowLayout.m in Sources */,
+				89E116B91C99501400484655 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E116C91C99501400484655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E116D21C99501400484655 /* PZXWaterflowLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E116D41C99501400484655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E116DD1C99501400484655 /* PZXWaterflowLayoutUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89E116CF1C99501400484655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89E116B31C99501400484655 /* PZXWaterflowLayout */;
+			targetProxy = 89E116CE1C99501400484655 /* PBXContainerItemProxy */;
+		};
+		89E116DA1C99501400484655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89E116B31C99501400484655 /* PZXWaterflowLayout */;
+			targetProxy = 89E116D91C99501400484655 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89E116C01C99501400484655 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89E116C11C99501400484655 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89E116C51C99501400484655 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89E116C61C99501400484655 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89E116DF1C99501400484655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89E116E01C99501400484655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89E116E21C99501400484655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PZXWaterflowLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pengzuxin.PZXWaterflowLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89E116E31C99501400484655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PZXWaterflowLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pengzuxin.PZXWaterflowLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		89E116E51C99501400484655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PZXWaterflowLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pengzuxin.PZXWaterflowLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PZXWaterflowLayout.app/PZXWaterflowLayout";
+			};
+			name = Debug;
+		};
+		89E116E61C99501400484655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PZXWaterflowLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pengzuxin.PZXWaterflowLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PZXWaterflowLayout.app/PZXWaterflowLayout";
+			};
+			name = Release;
+		};
+		89E116E81C99501400484655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PZXWaterflowLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pengzuxin.PZXWaterflowLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PZXWaterflowLayout;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		89E116E91C99501400484655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PZXWaterflowLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pengzuxin.PZXWaterflowLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PZXWaterflowLayout;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89E116AF1C99501400484655 /* Build configuration list for PBXProject "PZXWaterflowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E116DF1C99501400484655 /* Debug */,
+				89E116E01C99501400484655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89E116E11C99501400484655 /* Build configuration list for PBXNativeTarget "PZXWaterflowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E116E21C99501400484655 /* Debug */,
+				89E116E31C99501400484655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		89E116E41C99501400484655 /* Build configuration list for PBXNativeTarget "PZXWaterflowLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E116E51C99501400484655 /* Debug */,
+				89E116E61C99501400484655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		89E116E71C99501400484655 /* Build configuration list for PBXNativeTarget "PZXWaterflowLayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E116E81C99501400484655 /* Debug */,
+				89E116E91C99501400484655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89E116AC1C99501400484655 /* Project object */;
+}
